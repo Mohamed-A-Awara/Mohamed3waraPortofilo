@@ -117,7 +117,7 @@
 /***************************/
 @media (max-width: 768px){
     .home-style{
-        height: 115vh;
+        height: 100vh;
     }
     .parent{
         flex-direction: column;
@@ -162,7 +162,7 @@
     }
     .data p{
         position: absolute;
-        top: 450px; 
+        top: 480px; 
         width: 85%;
         margin: 0 auto;
     }
