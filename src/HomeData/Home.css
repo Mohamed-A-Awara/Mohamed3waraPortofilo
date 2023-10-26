@@ -152,6 +152,7 @@
         position: absolute;
         width: 90%;
         margin-bottom: 15px;
+        margin-top: 20px;
 
         /* width: 100%;
         margin: 0 auto; */
@@ -194,7 +195,7 @@
     }
     .imgbox{
         width: 80%;
-        height: 400px;
+        height: 450px;
         /* background-color: blanchedalmond ; */
         top: 58%;
         margin: 0 auto;
