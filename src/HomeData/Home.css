@@ -158,17 +158,17 @@
         position: absolute;
         width: 85%;
         margin: 0 auto;
-        top: 300px;
+        top: 350px;
     }
     .data p{
         position: absolute;
-        top: 410px; 
+        top: 450px; 
         width: 85%;
         margin: 0 auto;
     }
     .btn-CV{
         position: absolute;
-        top: 520px;
+        top: 570px;
     }
     .img-data{
         height: 100%;
