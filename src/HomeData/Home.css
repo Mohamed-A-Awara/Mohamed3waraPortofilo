@@ -24,15 +24,16 @@
 }
 .data h3{
     position: absolute;
-    top: 15%;
+    top: 11%;
     border: 2px solid black;
-    width: 420px;
-    height: 65px;
+    width: 450px;
+    /* height: 70px; */
+    padding: 25px;
     text-align: center;
-    padding: 15px;
     background: -webkit-linear-gradient(top , rgb(86, 110, 214), rgb(18, 158, 174));
     border-radius: 30px;
     text-transform: capitalize;
+    margin-bottom: 15px;
 }
 .data .my-name{
     position: absolute;
@@ -40,9 +41,11 @@
     text-transform: capitalize;
     font-size: 33px;
     font-weight: bolder;
+    margin-bottom: 15px;
 }
 .my-name span {
     letter-spacing: 2px;
+    margin-bottom: 15px;
     /* color: rgb(255, 255, 255); */
 }
 .data .job-title{
@@ -50,10 +53,12 @@
     top: 40%;
     text-transform: capitalize;
     font-size: 35px;
+    margin-bottom: 15px;
 
 }
 .job-title span{
     letter-spacing: 2px;
+    margin-bottom: 15px;
 }
 .data p {
     position: absolute;
@@ -62,6 +67,7 @@
     text-transform: capitalize;
     font-weight: 500;
     letter-spacing: 1px;
+    margin-bottom: 15px;
 }
 .btn-CV{
     position: absolute;
@@ -73,6 +79,7 @@
     border-radius: 35px 55px;
     background: -webkit-linear-gradient(top , rgb(86, 110, 214), rgb(18, 158, 174));
     font-size: 20px;
+    margin-bottom: 15px;
 }
 .btn-CV:hover{
     background: -webkit-linear-gradient(top , rgb(204, 206, 216), rgb(33, 79, 84));
@@ -117,7 +124,8 @@
 /***************************/
 @media (max-width: 768px){
     .home-style{
-        height: 100vh;
+        height: 113vh;
+        overflow: hidden;
     }
     .parent{
         flex-direction: column;
@@ -143,6 +151,8 @@
     .data h3{
         position: absolute;
         width: 90%;
+        margin-bottom: 15px;
+
         /* width: 100%;
         margin: 0 auto; */
         /* text-align: left; */
@@ -153,26 +163,34 @@
         /* top: 80px; */
         width: 85%;
         margin: 0 auto;
+        margin-bottom: 15px;
+
     }
     .data .job-title{
         position: absolute;
         width: 85%;
         margin: 0 auto;
-        top: 350px;
+        margin-bottom: 15px;
+        
+        top: 300px;
     }
     .data p{
         position: absolute;
-        top: 480px; 
+        top: 410px; 
         width: 85%;
         margin: 0 auto;
+        margin-bottom: 15px;
+
     }
     .btn-CV{
         position: absolute;
-        top: 570px;
+        top: 520px;
+        margin-bottom: 15px;
     }
     .img-data{
         height: 100%;
         width: 80%;
+        /* overflow: hidden; */
     }
     .imgbox{
         width: 80%;
@@ -180,6 +198,7 @@
         /* background-color: blanchedalmond ; */
         top: 58%;
         margin: 0 auto;
+        /* overflow: hidden; */
     }
     .imgbox div{
         border-radius: 50px 50px 0 0;
@@ -188,6 +207,7 @@
         bottom: 0;
         animation: none;
         background-color: rgba(0, 0, 0, 0.7);
+        overflow: hidden;
     }
     .imgbox .back-style{
         display: block;
@@ -196,5 +216,6 @@
         bottom: 0;
         left: -80px;
         animation: none;
+        overflow: hidden;
     }
 }
