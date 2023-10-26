@@ -86,20 +86,34 @@
     }
     .social-link{
         margin-bottom: 10px;
+        display: flex;
     }
     .btn-style{
         margin-top: 15px;
     }
-    .nav-style a a{
-        margin-left: 30px;
+    .nav-style {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .btn-style{
         /* margin-left: 20px; */
         margin: 20px;
     }
+    .social-media  {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        flex-direction: row;
+
+    }
     .small-style{
         background-color: rgba(0, 0, 0, 0.8);
         border-radius:40px;
+        
     }
 }
 
