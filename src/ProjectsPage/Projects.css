@@ -1,0 +1,236 @@
+.project-style{
+    min-height: calc( 100vh - 70px);    
+    background-size: cover;
+
+}
+.project-style h2{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    padding: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;    
+    color: rgb(33, 79, 84);
+    opacity: 0.4;
+}
+.project-style p{
+    font-size: 20px;
+    letter-spacing: 4px ;
+    padding: 15px;
+    text-transform: capitalize;
+    text-align: center;
+}
+/************************************/
+.project-style nav{
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    border: 3px solid rgb(28, 22, 22);
+    height: 70px;
+    border-radius: 100px;
+}
+.project-style nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px ;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    /* background-color: aqua; */
+    border-radius: 100px 0px 0px 100px;
+    transition: 1s;
+}
+.project-style nav .noborder{
+    border-radius: 0;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+.project-style nav .noright{
+    border-radius: 0px 100px 100px 0px;
+}
+.project-style nav a:hover{
+    background: -webkit-linear-gradient(top,rgb(50, 69, 108),rgb(66, 66, 102),rgb(21, 43, 61));
+}
+.project-style nav a:focus{
+    color: white;
+    font-size: 22px;
+}
+/******************* Section 1 style       *****************************/
+.Worked{
+    /* position: relative; */
+    /* margin: 15px 0; */
+    margin-top: 15px;
+}
+.Works-links {
+    height: 400px;
+    width: 420px;
+    position: relative;
+}
+.Works-links.botton{
+    margin-top: -120px;
+}
+.Works-links .imgstyle{
+    width: 100%;
+    height: 60%;
+    background-size: cover;
+    /* background-clip: border-box; */
+    border-radius: 50px;
+    transition: 1s;
+}
+.Works-links .imgstyle:hover{
+    transform: scale(1.02);
+}
+.Works-links .over-content{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 50px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1s;
+}
+.over-content .over-data{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.over-content .over-data h3{
+    width: 100%;
+    
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+}
+.over-content .over-data p{
+    width: 100%;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #fff;
+    
+}
+.Works-links .imgstyle:hover .over-content{
+    opacity: 1;
+    visibility: visible;
+}
+
+/*********************** Section 2 Style ***********************************/
+.form-style{
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    padding-top: 100px;
+    justify-content: space-between;
+}
+.form-style .img-info{
+    display: flex;
+    width: 50%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.form-style .form-data{
+    display: flex;
+    width: 50%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column ;
+    transition: 1s; 
+    margin-left: 50px;;
+    margin-top: 50px;
+}
+.form-data h1{
+    align-self: flex-start;
+    opacity: 0.7;
+    letter-spacing: 3px;
+    font-weight: 900;
+    transform: translate(8% , -50%);
+}
+.form-data .input-data{
+    border-radius: 30px;
+    height: 50px;
+    background: -webkit-linear-gradient(top,rgb(187, 198, 221),rgb(141, 141, 188),rgb(109, 133, 153));
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.form-data .msg-input{
+    border-radius: 30px;
+    background: -webkit-linear-gradient(top,rgb(187, 198, 221),rgb(141, 141, 188),rgb(109, 133, 153));
+    
+}
+
+.btn-send{
+    width: 120px;
+    height: 50px;
+    border-radius: 35px;
+    background: -webkit-linear-gradient(top,rgb(187, 198, 221),rgb(141, 141, 188),rgb(109, 133, 153));
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+.form-data .input-data:focus , .msg-input:focus , .btn-send:focus{
+    background: #fff;
+}
+
+/********************* Section 3 Style  *****************************/
+.personal-data h2{
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #080707;
+    text-transform: capitalize;
+    padding: 10px;
+    opacity: 1;
+}
+.personal-data p{
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+@media (max-width: 768px){
+    .project-style nav{
+        width: 100%;
+    }
+    .Works-links{
+        margin-top: 20px;
+    }
+    .sm-de{
+        margin-top: -120px;
+        margin-bottom: -140px;
+    }
+
+    /************* section2**********************/
+    .form-style{
+        flex-direction: column;
+        height: 150vh;
+    }
+    .form-style .img-info{
+        width: 100%;
+        height: 100%;
+        margin-top: -100px;
+    }
+    .form-style .form-data{
+        flex-direction: column;
+        width: 80%;
+        height: 100%;
+        justify-content: center;
+        margin-left: 15px;
+    }
+    
+}
