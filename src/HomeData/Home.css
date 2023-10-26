@@ -172,11 +172,11 @@
         margin: 0 auto;
         margin-bottom: 15px;
         
-        top: 300px;
+        top: 350px;
     }
     .data p{
         position: absolute;
-        top: 410px; 
+        top: 470px; 
         width: 85%;
         margin: 0 auto;
         margin-bottom: 15px;
@@ -184,7 +184,7 @@
     }
     .btn-CV{
         position: absolute;
-        top: 520px;
+        top: 570px;
         margin-bottom: 15px;
     }
     .img-data{
