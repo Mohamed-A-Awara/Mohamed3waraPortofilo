@@ -142,7 +142,7 @@
 /************** Phone View*******************/
 @media (max-width: 768px){
     .home-style{
-        min-height: calc(150vh - 70px);
+        min-height: calc(130vh - 70px);
         width: 100% !important;
         background-repeat: repeat;
 
